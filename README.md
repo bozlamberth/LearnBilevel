@@ -10,10 +10,9 @@ Before you use the code, ensure you have met the following requirements:
 
 ## Test Instances
 There are three classes of test instances included in the computational experiments:
-
-Modified VRPTW Instances
-CVRP X-Instances
-Medical Home Delivery in Wayne County Intances (multi-depot)
+* Modified VRPTW Instances
+* CVRP X-Instances
+* Medical Home Delivery in Wayne County Intances (multi-depot)
 They are provided in the folder /Instances
 
 ## How to Use
