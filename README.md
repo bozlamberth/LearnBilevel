@@ -1,7 +1,7 @@
 # Learning to Solve Bilevel Programs with Binary Tender
-This repository contains the source code used in the computational experiments of the paper: Learning to Solve Bilevel Programs with Binary Tender (available on OpenReview.net [https://openreview.net/pdf?id=PsDFgTosqb]).
+This repository contains the source code used in the computational experiments of the paper: **Learning to Solve Bilevel Programs with Binary Tender** (available on OpenReview.net [https://openreview.net/pdf?id=PsDFgTosqb]).
 
-In our paper, we solve Vehicle Routing Problem with Unit Demand using column generation approach. We promote a random coloring algorithm that solves the elmentary shortest path problem with resource constraints (ESPPRC), which serves as the subproblem of column generation-based approach for Vehicle Routing Problem.
+In this paper, we develop deep learning techniques to address this challenge. Specifically, we consider a BP with binary tender, wherein the upper and lower levels are linked via binary variables. We train a neural network to approximate the optimal value of the lower-level problem, as a function of the binary tender. Then, we obtain a single-level reformulation of the BP through a mixed-integer representation of the value function. Furthermore, we conduct a comparative analysis between two types of neural networks: general neural networks and the novel input supermodular neural networks, studying their representational capacities. To solve high-dimensional BPs, we introduce an enhanced sampling method to generate higher-quality samples and implement an iterative process to refine solutions.
 
 Prerequisites
 Before you use the code, ensure you have met the following requirements:
