@@ -5,15 +5,18 @@ In this paper, we develop deep learning techniques to address this challenge. Sp
 
 ## Prerequisites
 Before you use the code, ensure you have met the following requirements:
+
 * You have access of Gurobi. It is used as the optimization solver for various linear programming and integer programming models in the code.
 * You have a basic understanding of column generation approach.
 
 ## Test Instances
 There are three classes of test instances included in the computational experiments:
+
 * Modified VRPTW Instances
 * CVRP X-Instances
-* Medical Home Delivery in Wayne County Intances (multi-depot)
-They are provided in the folder /Instances
+* Medical Home Delivery in Wayne County Intances (multi-depot) 
+
+They are provided in the folder `/Instances`
 
 ## How to Use
 One can create a project and use the code in this repository in Java IDE by selecting "create new project with existing sources". However, the user need to have Gurobi solver installed and add it as global library to this project.
